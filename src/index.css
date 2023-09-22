@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(206, 206, 206, 0.5);
+}
+
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.end-0 {
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.custom-navbar {
+  background-color: rgb(255 193 7) !important;
+}
